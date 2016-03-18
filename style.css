@@ -1,0 +1,16 @@
+li:hover{
+  background-color:gray;
+}
+
+.jumbotron{
+  margin-top:-27px;
+  height:500px;
+  background-image: url(http://i.imgur.com/O7sXAEZ.png);
+  background-repeat:no-repeat;
+  background-size:100% 500px;
+  color:white;
+}
+
+#jumbo-text{
+  margin-top:70px;
+}
