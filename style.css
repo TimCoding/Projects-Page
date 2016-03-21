@@ -56,70 +56,40 @@ li:hover{
   color: orange;
 }
 
-/* Animation for the jumbotron */ 
-#line1{
+/* Animation for the jumbotron */
+.animated-lines{
   color: white; 
   font-family: "Courier";
   font-size: 20px;
   margin: 10px 0 0 10px;
   white-space: nowrap;
   overflow: hidden;
-  width: 35em;
+  width: 40em;
+}
+
+/*Put media queries here*/
+
+#line1{
   animation: type 4s steps(60, end); 
 }
 
 #line2{
-  color: white; 
-  font-family: "Courier";
-  font-size: 20px;
-  margin: 10px 0 0 10px;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 35em;
   animation: type2 6s steps(40, end); 
 }
 
 #line3{
-  color: white; 
-  font-family: "Courier";
-  font-size: 20px;
-  margin: 10px 0 0 10px;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 40em;
   animation: type2 10.5s steps(55, end); 
 }
 
 #line4{
-  color: white; 
-  font-family: "Courier";
-  font-size: 20px;
-  margin: 10px 0 0 10px;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 40em;
   animation: type3 17.5s steps(60, end); 
 }
 
 #line5{
-  color: white; 
-  font-family: "Courier";
-  font-size: 20px;
-  margin: 10px 0 0 10px;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 40em;
   animation: type5 22s steps(60, end); 
 }
 
 #line6{
-  color: white; 
-  font-family: "Courier";
-  font-size: 20px;
-  margin: 10px 0 0 10px;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 40em;
   animation: type5 26s steps(60, end); 
 }
 
