@@ -2,7 +2,9 @@ body{
   background-color:#efeff5;
 }
 
-li:hover{
+
+/*For the nav bar links*/
+.nav li:hover{
   background-color:gray;
 }
 
@@ -54,12 +56,35 @@ li:hover{
 
 /*CSS for connection links*/
 #contact-icons li{
-  display: inline;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right:10px;
+  font-size: 30px;
+  text-decoration:none;
 }
 
 #connect-links{
   padding-bottom: 160px;
+  text-align: center;
 }
+
+#linkedin, #github, #facebook {
+  color: gray;
+}
+
+#linkedin:hover {
+  color: #4875B4;
+}
+
+#github:hover {
+  color: #000000;
+}
+
+#facebook:hover {
+  color:#3B5998;
+}
+
+
 
 /* Animation for the jumbotron */
 .animated-lines{
